@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
@@ -14,12 +15,13 @@ import { ROUTES } from './app.routes';
     AppComponent,
     MenuComponent,
     SignupComponent,
-    UserProfileComponent,
+    UserProfileComponent
 
   ],
   imports: [
     BrowserModule,
-    RouterModule.forRoot(ROUTES)
+    RouterModule.forRoot(ROUTES),
+    FormsModule
 
   ],
   providers: [],
