@@ -8,6 +8,9 @@ import { MenuComponent } from './menu/menu.component';
 import { SignupComponent } from './signup/signup.component';
 import { UserProfileComponent } from './user-profile/user-profile.component';
 import { ROUTES } from './app.routes';
+import { FilmComponent } from './film/film.component';
+import { HighlightDirective } from './highlight.directive';
+import { DisplayMoviesDirective } from './display-movies.directive';
 
 
 @NgModule({
@@ -15,7 +18,10 @@ import { ROUTES } from './app.routes';
     AppComponent,
     MenuComponent,
     SignupComponent,
-    UserProfileComponent
+    UserProfileComponent,
+    FilmComponent,
+    HighlightDirective,
+    DisplayMoviesDirective
 
   ],
   imports: [
